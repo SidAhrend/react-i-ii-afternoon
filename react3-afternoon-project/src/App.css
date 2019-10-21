@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: rgb(49, 49, 156);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.Header-content{
+  display: flex;
+  color: whitesmoke;
+  float: left;
+  margin-left: 50px;
+}
+.Main-content{
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(78, 77, 77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.White-container{
+  width: 75%;
+  height: 60vh;
+  background-color: whitesmoke;
+}
+.Bottom-container{
+  width: 75%;
+  height: 50px;
+  background-color: rgb(59, 58, 58);
+  display: flex;
+}
+.Name-plus-numbers{
+  width: 100%;
+  height: 15vh;
+  background-color: whitesmoke;
+}
+.Text-details{
+  height: 20vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: center;
+  padding: 35px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.Favorites{
+  height: 20vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+  align-content: stretch;
+  text-align: left;
+  padding: 35px;
+  box-sizing: border-box;
+}
+.Name-plus-numbers{
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  box-sizing: border-box;
+  
+}
+.Name{
+  width: 50%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+  align-content: stretch;
+  margin-left: 25px;
+  font-size: 30px;
+}
+.Numbers{
+  width:50%;
+  height:25%;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+  align-content: stretch;
+  margin-right: 25px;
+  font-size: 25px;
+}
+.Blue-buttons{
+  background-color: rgb(95, 95, 184);
+  color: black;
+  border: solid 0px;
+  border-radius: 10px;
+  font-size: 15px;
+
+}
+
+.Outer-buttons{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+	align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  background-color: transparent;
+}
+p{
+  margin-bottom: 5px;
+  padding: 0;
+}
+.white-buttons{
+  background-color: transparent;
+  border: 0px;
+  font-size: 15px;
+  color: whitesmoke;
+}
